@@ -1,0 +1,10 @@
+{
+    "builds": [
+        {
+            "src": "docs/.vitepress/dist/**/*",
+            "use": "@vercel/static"
+        }
+    ],
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+    "redirects": [{ "source": "/home", "destination": "/", "statusCode": 301 }]
+}
