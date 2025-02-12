@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: "/",
-    outDir: "docs/.vitepress/dist",
+    outDir: "dist",
     head: [
         ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     ],

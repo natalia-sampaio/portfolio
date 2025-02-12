@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "docs/.vitepress/dist/**",
+            "src": "dist/**",
             "use": "@vercel/static"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "docs/.vitepress/dist/$1"
+            "dest": "dist/$1"
         }
     ]
 }
