@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "src": "docs/.vitepress/dist/**/*",
+            "src": ".vitepress/dist/**/*",
             "use": "@vercel/static"
         }
     ],
