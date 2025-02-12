@@ -1,11 +1,14 @@
 {
     "builds": [
         {
-            "src": "docs/.vitepress/dist/**/*",
+            "src": "docs/.vitepress/dist/**",
             "use": "@vercel/static"
         }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-    "redirects": [{ "source": "/home", "destination": "/", "statusCode": 301 }],
-    "outputDirectory": ".vitepress/dist"
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "docs/.vitepress/dist/$1"
+        }
+    ]
 }
