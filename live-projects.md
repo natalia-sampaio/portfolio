@@ -2,6 +2,10 @@
 outline: deep
 ---
 
+<script setup>
+import MockupComponent from '/MockupComponent.vue';
+</script>
+
 # Live Projects
 
 Welcome to the live projects section! Here you can explore some of the exciting projects I have built using Vue, TypeScript, and other modern technologies. Each project demonstrates my approach to problem-solving and my ability to craft high-quality, scalable solutions. Check them out below!
@@ -104,6 +108,8 @@ A Vue.js-based flow editor focusing on the power of reactivity. This tool demons
 
 ## Fullstack E-Commerce Website <Badge type="tip" text="live" />
 
+<MockupComponent />
+
 ### Description
 
 A complete e-commerce platform built with Vue.js for the frontend, Firebase for backend operations, and Pinia for state management. This project demonstrates real-time database interactions, authentication, product management, and seamless state handling.
@@ -119,8 +125,9 @@ A complete e-commerce platform built with Vue.js for the frontend, Firebase for 
 
 ### Links
 
--   **Live Link**: [E-Commerce Website](https://e-commerce-lake-eight.vercel.app/)
--   **Repo**: [Github repo](https://github.com/natalia-sampaio/e-commerce)
+[![Live demo](https://img.shields.io/badge/Vercel-E--commerce_Project-black?logo=vercel)](https://e-commerce-lake-eight.vercel.app/)
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/natalia-sampaio/e-commerce)
 
 ---
 
