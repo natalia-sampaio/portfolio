@@ -95,6 +95,7 @@ A Vue.js-based flow editor focusing on the power of reactivity. This tool demons
 
 -   Vue.js
 -   TypeScript
+-   Vercel
 
 ### Links
 
@@ -114,6 +115,7 @@ A complete e-commerce platform built with Vue.js for the frontend, Firebase for 
 -   Firebase
 -   Pinia
 -   Tailwind CSS
+-   Vercel
 
 ### Links
 
