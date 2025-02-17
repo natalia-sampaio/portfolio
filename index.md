@@ -15,8 +15,8 @@ hero:
           text: Explore my projects
           link: /live-projects
         - theme: alt
-          text: See my professional journey
-          link: /markdown-examples
+          text: See my work for clients
+          link: /client-work
 
 features:
     - icon: 🎨
