@@ -10,6 +10,35 @@ import MockupComponent from '/MockupComponent.vue';
 
 Welcome to the live projects section! Here you can explore some of the exciting projects I have built using Vue, TypeScript, and other modern technologies. Each project demonstrates my approach to problem-solving and my ability to craft high-quality, scalable solutions. Check them out below!
 
+## Fullstack Todo App <Badge type="tip" text="live" />
+
+<MockupComponent link="https://to-do-app-phi-seven.vercel.app/" title="Fullstack Todo App" />
+
+### Description
+
+A task management application that allows users to create and organize their to-do lists. Tasks are saved locally for guests and synced to user accounts upon login. Features include task filtering, bulk deletion of completed items, inline editing, and drag-and-drop reordering using the native HTML5 Drag and Drop API—eliminating the need for external libraries. The app also supports internationalization, automatically detecting the user's browser language. It defaults to Brazilian Portuguese for browsers set to Portuguese (BR) and English for all other languages.
+
+### Tech Stack
+
+-   HTML5
+-   Vue 3
+-   JavaScript
+-   Firebase
+-   DaisyUI
+-   Tailwind CSS
+
+### Future Features
+
+-   Offline mode for local use
+-   Support for multiple lists
+-   Full data ownership, allowing users to download their lists
+
+### Links
+
+[![Live demo](https://img.shields.io/badge/Vercel-Todo_App-black?logo=vercel)](https://to-do-app-phi-seven.vercel.app/)
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/natalia-sampaio/to-do-app)
+
 ## Custom Component Library <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q1 2025" />
 
 ### Description
@@ -91,6 +120,8 @@ This is an open-source, full-featured product management app built with and for 
 
 ## Node-Based Flow Editor <Badge type="tip" text="live" />
 
+<MockupComponent link="https://node-based-flow-editor.vercel.app/" title="Node-Based Flow Editor" />
+
 ### Description
 
 A Vue.js-based flow editor focusing on the power of reactivity. This tool demonstrates how to build highly dynamic, interactive UIs with Vue's reactivity system for complex workflows.
@@ -108,7 +139,7 @@ A Vue.js-based flow editor focusing on the power of reactivity. This tool demons
 
 ## Fullstack E-Commerce Website <Badge type="tip" text="live" />
 
-<MockupComponent />
+<MockupComponent link='https://e-commerce-6xs8t1xsq-nataliasampaios-projects.vercel.app/' title="Fullstack E-Commerce Website" hasMobileView />
 
 ### Description
 

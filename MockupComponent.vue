@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 import { VPButton } from "vitepress/theme";
 const showMobile = ref(false);
@@ -6,11 +6,18 @@ const showMobile = ref(false);
 const toggleView = () => {
     showMobile.value = !showMobile.value;
 };
+
+defineProps<{
+    link: string;
+    title: string;
+    hasMobileView?: false;
+}>();
 </script>
 
 <template>
     <div>
         <VPButton
+            v-if="hasMobileView"
             @click="toggleView"
             size="medium"
             tag="button"
@@ -19,13 +26,11 @@ const toggleView = () => {
 
         <Transition name="fade" mode="out-in">
             <div v-if="!showMobile" class="laptop-mockup">
-                <iframe
-                    src="https://e-commerce-6xs8t1xsq-nataliasampaios-projects.vercel.app/"></iframe>
+                <iframe :src="link" :title="title"></iframe>
             </div>
 
             <div v-else class="mobile-mockup">
-                <iframe
-                    src="https://e-commerce-6xs8t1xsq-nataliasampaios-projects.vercel.app/"></iframe>
+                <iframe :src="link" :title="title"></iframe>
             </div>
         </Transition>
     </div>
