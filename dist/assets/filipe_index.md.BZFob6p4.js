@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CTVYQtO4.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"filipe/index.md","filePath":"filipe/index.md"}'),i={name:"filipe/index.md"};function n(r,o,s,c,d,p){return a(),t("div")}const l=e(i,[["render",n]]);export{_ as __pageData,l as default};
