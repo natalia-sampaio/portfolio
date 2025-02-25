@@ -7,30 +7,83 @@ export default defineConfig({
     head: [
         ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     ],
-    title: "natalia@nafi.dev",
-    description: "A frontend developer's portfolio site",
+    title: "nafi.dev",
+    description:
+        "Nafi Dev is a technology company founded by Natália Andrade and Filipe Danielski Andrade, combining expertise in frontend and full-stack development. We believe in custom software solutions that fit your needs like a glove—built for efficiency, maintainability, and seamless integration.",
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
+        logo: "/logo-light.svg",
         nav: [
             { text: "Home", link: "/" },
-            { text: "Personal projects", link: "/live-projects" },
-            { text: "Client work", link: "/client-work" },
-            { text: "About Me", link: "/about-me" },
+            { text: "About us", link: "/about-us" },
+            { text: "Meet our team", link: "/team" },
         ],
 
-        /* sidebar: [
-            {
-                text: "Nafi Dev",
-                link: "/live-projects",
+        sidebar: {
+            "/": [
+                {
+                    text: "Learn more about Natália",
+                    link: "/natalia",
+                    items: [
+                        {
+                            text: "Client work",
+                            link: "/natalia/client-work",
+                        },
+                        {
+                            text: "Live projects",
+                            link: "/natalia/live-projects",
+                        },
+                        {
+                            text: "About Natália",
+                            link: "/natalia/about",
+                        },
+                    ],
+                },
+                {
+                    text: "Learn more about Filipe",
+                    link: "/filipe",
+                    items: [
+                        {
+                            text: "Client work",
+                            link: "/filipe/client-work",
+                        },
+                        {
+                            text: "Live projects",
+                            link: "/filipe/live-projects",
+                        },
+                        { text: "About Filipe", link: "/filipe/about" },
+                    ],
+                },
+            ],
+            "/natalia/": [
+                {
+                    text: "Natália Andrade",
+                    link: "/natalia",
+                    items: [
+                        { text: "Client work", link: "/natalia/client-work" },
+                        {
+                            text: "Live projects",
+                            link: "/natalia/live-projects",
+                        },
+                        { text: "About Natália", link: "/natalia/about" },
+                    ],
+                },
+            ],
+            "/filipe/": [
+                {
+                    text: "Filipe Danielski",
+                    link: "/filipe",
+                    items: [
+                        { text: "Client work", link: "/filipe/client-work" },
+                        {
+                            text: "Live projects",
+                            link: "/filipe/live-projects",
+                        },
+                        { text: "About Filipe", link: "/filipe/about" },
+                    ],
+                },
+            ],
+        },
 
-                items: [
-                    { text: "Meet Natália", link: "/client-work" },
-                    { text: "Meet Filipe", link: "/about-me" },
-                ],
-            },
-            
-        ],
- */
         socialLinks: [
             {
                 icon: "github",
