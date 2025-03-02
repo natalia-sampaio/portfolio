@@ -1,11 +1,19 @@
 import { defineConfig } from "vitepress";
 
+const siteTitle = "nafi.dev";
+const siteDescription =
+    "Nafi Dev is a technology company founded by Natália Andrade and Filipe Danielski Andrade, combining expertise in frontend and full-stack development. We believe in custom software solutions that fit your needs like a glove—built for efficiency, maintainability, and seamless integration.";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: "/",
     outDir: "dist",
     head: [
         ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+
+        // ✅ Open Graph (Facebook, LinkedIn, Discord, WhatsApp)
+        ["meta", { property: "og:title", content: siteTitle }],
+        ["meta", { property: "og:description", content: siteDescription }],
         [
             "meta",
             {
@@ -16,7 +24,13 @@ export default defineConfig({
         ["meta", { property: "og:image:type", content: "image/jpeg" }],
         ["meta", { property: "og:image:width", content: "1200" }],
         ["meta", { property: "og:image:height", content: "630" }],
+        ["meta", { property: "og:url", content: "https://www.nafi.dev" }],
+        ["meta", { property: "og:type", content: "website" }],
+
+        // ✅ Twitter Cards
         ["meta", { name: "twitter:card", content: "summary_large_image" }],
+        ["meta", { name: "twitter:title", content: siteTitle }],
+        ["meta", { name: "twitter:description", content: siteDescription }],
         [
             "meta",
             {
@@ -24,10 +38,10 @@ export default defineConfig({
                 content: "https://www.nafi.dev/api/og?url=https://www.nafi.dev",
             },
         ],
+        ["meta", { name: "twitter:image:alt", content: "Preview of nafi.dev" }],
     ],
-    title: "nafi.dev",
-    description:
-        "Nafi Dev is a technology company founded by Natália Andrade and Filipe Danielski Andrade, combining expertise in frontend and full-stack development. We believe in custom software solutions that fit your needs like a glove—built for efficiency, maintainability, and seamless integration.",
+    title: siteTitle,
+    description: siteDescription,
     themeConfig: {
         logo: "/logo-light.svg",
         nav: [
