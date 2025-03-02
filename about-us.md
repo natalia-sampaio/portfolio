@@ -46,3 +46,9 @@ We don’t believe in one-size-fits-all solutions. Like a tailor crafting a perf
 ✅ Developer Experience First – Clean, structured code for long-term efficiency.
 
 ✅ Seamless Integration – Frontend and backend working together harmoniously.
+
+<script setup>
+    import InteractiveBG from './InteractiveBG.vue'
+</script>
+
+<InteractiveBG />

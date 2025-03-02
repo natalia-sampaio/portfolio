@@ -12,7 +12,7 @@ import {
   VPTeamMembers,
   VPLink
 } from 'vitepress/theme'
-
+import InteractiveBG from './InteractiveBG.vue'
 const members = [
   {
     avatar: 'https://www.github.com/natalia-sampaio.png',
@@ -40,6 +40,8 @@ const members = [
   },
 ]
 </script>
+
+<InteractiveBG />
 
 # Meet the founders
 
