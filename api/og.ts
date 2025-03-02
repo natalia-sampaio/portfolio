@@ -12,7 +12,7 @@ export default async function handler(
             new URL(
                 req.url || "",
                 `http://${req.headers.host}`
-            ).searchParams.get("url") || "https://nafi.dev";
+            ).searchParams.get("url") || "https://www.nafi.dev";
 
         console.log("Generating screenshot for:", url);
 

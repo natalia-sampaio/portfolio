@@ -10,7 +10,7 @@ export default defineConfig({
             "meta",
             {
                 property: "og:image",
-                content: "https://nafi.dev/api/og?url=https://nafi.dev",
+                content: "https://www.nafi.dev/api/og?url=https://www.nafi.dev",
             },
         ],
         ["meta", { property: "og:image:type", content: "image/jpeg" }],
@@ -21,7 +21,7 @@ export default defineConfig({
             "meta",
             {
                 name: "twitter:image",
-                content: "https://nafi.dev/api/og?url=https://nafi.dev",
+                content: "https://www.nafi.dev/api/og?url=https://www.nafi.dev",
             },
         ],
     ],
