@@ -18,20 +18,25 @@ Welcome to the live projects section! Here you can explore some of the exciting 
 
 A task management application that allows users to create and organize their to-do lists. Tasks are saved locally for guests and synced to user accounts upon login. Features include task filtering, bulk deletion of completed items, inline editing, and drag-and-drop reordering using the native HTML5 Drag and Drop API—eliminating the need for external libraries. The app also supports internationalization, automatically detecting the user's browser language. It defaults to Brazilian Portuguese for browsers set to Portuguese (BR) and English for all other languages.
 
+### Upcoming Features <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q2 2025" />
+
+🚀 Transition to a Decentralized Application (dApp): The app is being redesigned to replace Firebase with a smart contract deployed on Ethereum/Polygon, ensuring full data ownership and decentralization. This upgrade will:
+
+-   Store tasks on-chain using Solidity smart contracts
+-   Use MetaMask for authentication, removing the need for traditional logins
+-   Enable a more transparent, tamper-proof task management experience
+
+To optimize blockchain efficiency, future enhancements may include:
+
+-   IPFS integration for off-chain task storage
+-   Multi-list support for better task organization
+
 ### Tech Stack
 
--   HTML5
--   Vue 3
--   JavaScript
--   Firebase
--   DaisyUI
--   Tailwind CSS
-
-### Future Features
-
--   Offline mode for local use
--   Support for multiple lists
--   Full data ownership, allowing users to download their lists
+-   Frontend: Vue 3, TypeScript, Tailwind CSS, DaisyUI
+-   Backend (Current): Firebase (being replaced with a smart contract)
+-   Blockchain (Upcoming): Solidity, Ethers.js, Web3.js, MetaMask authentication
+-   Deployment: Vercel
 
 ### Links
 
@@ -39,7 +44,7 @@ A task management application that allows users to create and organize their to-
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/natalia-sampaio/to-do-app)
 
-## Custom Component Library <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q1 2025" />
+## Custom Component Library <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q2 2025" />
 
 ### Description
 
@@ -98,7 +103,7 @@ By opting for a monorepo and using tools like Hygen, Changesets, and VitePress, 
 
 -   **Docs**: [Custom Component Library](#)
 
-## Fullstack Product Management App <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q1 2025" />
+## Fullstack Product Management App <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q2 2025" />
 
 ### Description
 

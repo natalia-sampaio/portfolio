@@ -21,13 +21,13 @@ features:
     - icon: 🧵
       title: Custom Component Libraries
       details: Tailor-made UI components to ensure design consistency and development efficiency.
-      link: /live-projects#custom-component-library
+      link: natalia/live-projects#custom-component-library
       linkText: Case study
 
-    - icon: 📈
-      title: Scalable Web Applications
-      details: High-performance, maintainable applications built with the latest web technologies.
-      link: /live-projects
+    - icon: ⛓️
+      title: Decentralized Web Applications (dApps)
+      details: Transitioning traditional apps to decentralized platforms for full data ownership and security.
+      link: natalia/live-projects#fullstack-todo-app
       linkText: Case study
 
     - icon: 📱
