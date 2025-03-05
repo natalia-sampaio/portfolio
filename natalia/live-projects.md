@@ -37,7 +37,7 @@ To optimize blockchain efficiency, future enhancements may include:
 
 -   Frontend: Vue 3, TypeScript, Tailwind CSS, DaisyUI
 -   Backend: Firebase (Maintained as a centralized option)
--   Blockchain (New feature): Solidity, Ethers.js, Web3.js, MetaMask authentication
+-   Blockchain (New feature): Solidity, Ethers.js, MetaMask authentication
 -   Deployment: Vercel
 
 ### Links
