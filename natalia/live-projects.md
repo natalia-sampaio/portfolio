@@ -20,7 +20,9 @@ A task management application that allows users to create and organize their to-
 
 ### Upcoming Features <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q2 2025" />
 
-🚀 Transition to a Decentralized Application (dApp): The app is being redesigned to replace Firebase with a smart contract deployed on Ethereum/Polygon, ensuring full data ownership and decentralization. This upgrade will:
+#### Blockchain Integration as an Alternative to Firebase
+
+The app is being expanded to include blockchain-powered task storage as an optional feature alongside Firebase. Users will have the flexibility to choose between centralized (Firebase) and decentralized (Ethereum/Polygon) storage. The blockchain integration will:
 
 -   Store tasks on-chain using Solidity smart contracts
 -   Use MetaMask for authentication, removing the need for traditional logins
@@ -34,15 +36,17 @@ To optimize blockchain efficiency, future enhancements may include:
 ### Tech Stack
 
 -   Frontend: Vue 3, TypeScript, Tailwind CSS, DaisyUI
--   Backend (Current): Firebase (being replaced with a smart contract)
--   Blockchain (Upcoming): Solidity, Ethers.js, Web3.js, MetaMask authentication
+-   Backend: Firebase (Maintained as a centralized option)
+-   Blockchain (New feature): Solidity, Ethers.js, Web3.js, MetaMask authentication
 -   Deployment: Vercel
 
 ### Links
 
 [![Live demo](https://img.shields.io/badge/Vercel-Todo_App-black?logo=vercel)](https://to-do-app-phi-seven.vercel.app/)
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/natalia-sampaio/to-do-app)
+[![App GitHub Repo](https://img.shields.io/badge/GitHub-App_Repo-black?logo=github)](https://github.com/nafi-dev/to-do-app)
+
+[![Smart Contract GitHub Repo](https://img.shields.io/badge/GitHub-Smart_Contract_Repo-black?logo=github)](https://github.com/nafi-dev/todo-smart-contract)
 
 ## Custom Component Library <Badge type="warning" text="in dev" /> <Badge type="tip" text="Release: Q2 2025" />
 
