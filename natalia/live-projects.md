@@ -4,7 +4,10 @@ outline: deep
 
 <script setup>
 import MockupComponent from '/MockupComponent.vue';
+import InteractiveBG from '../InteractiveBG.vue'
 </script>
+
+<InteractiveBG />
 
 # Live Projects
 

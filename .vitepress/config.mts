@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { fileURLToPath, URL } from "node:url";
 
 const siteTitle = "nafi.dev";
 const siteDescription =
@@ -141,6 +142,18 @@ export default defineConfig({
                 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
             copyright:
                 'Copyright © 2025-present <a href="https://github.com/natalia-sampaio">Nafi Dev</a>',
+        },
+    },
+    vite: {
+        resolve: {
+            alias: [
+                {
+                    find: /^.*\/VPFeature\.vue$/,
+                    replacement: fileURLToPath(
+                        new URL("/CustomFeatureCard.vue", import.meta.url)
+                    ),
+                },
+            ],
         },
     },
 });

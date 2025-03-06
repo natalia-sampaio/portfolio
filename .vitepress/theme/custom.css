@@ -5,4 +5,17 @@
     --vp-c-brand-soft: rgba(90, 140, 217, 0.15);
     --grid-color: rgba(214, 90, 67, 0.15);
     --highlight-color: #a43a2b;
+    --vp-c-bg-soft-rgb: 246, 246, 247;
+}
+
+.dark {
+    --vp-c-bg-soft-rgb: 32, 33, 39;
+}
+
+._about-us,
+._natalia_live-projects,
+._natalia_about,
+._natalia_client-work {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
 }

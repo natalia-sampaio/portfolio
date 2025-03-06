@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+<script setup>
+import { VPSocialLinks } from 'vitepress/theme'
+import InteractiveBG from '../InteractiveBG.vue'
+</script>
+<InteractiveBG />
 # Work for clients
 
 ## Introduction

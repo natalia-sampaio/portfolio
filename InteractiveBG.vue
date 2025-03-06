@@ -126,16 +126,25 @@ const updateScreenSize = () => {
 };
 
 onMounted(() => {
+    const bgContainer = document.createElement("div");
+    bgContainer.setAttribute("id", "bg-container");
+    bgContainer.style.position = "fixed";
+    bgContainer.style.top = "0";
+    bgContainer.style.left = "0";
+    bgContainer.style.width = "100vw";
+    bgContainer.style.height = "100vh";
+    bgContainer.style.zIndex = "-1";
+
     svgElement = document.createElementNS(svgNS, "svg");
     svgElement.setAttribute("id", "grid");
-    svgElement.style.position = "fixed";
-    svgElement.style.top = "0";
-    svgElement.style.left = "0";
-    svgElement.style.pointerEvents = "none"; // Ensures it doesn’t block clicks
+    svgElement.style.width = "100%";
+    svgElement.style.height = "100%";
+    svgElement.style.pointerEvents = "none";
 
-    document.body.appendChild(svgElement);
+    bgContainer.appendChild(svgElement);
+    document.body.appendChild(bgContainer);
+
     generateGrid();
-
     window.addEventListener("mousemove", highlightGridSquares);
 });
 

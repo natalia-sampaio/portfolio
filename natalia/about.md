@@ -1,5 +1,6 @@
 <script setup>
 import { VPSocialLinks } from 'vitepress/theme'
+import InteractiveBG from '../InteractiveBG.vue'
 
 const socialLinks = [
     {
@@ -20,6 +21,7 @@ const socialLinks = [
     },
 ]
 </script>
+<InteractiveBG />
 
 # About Me
 
